@@ -1,4 +1,4 @@
-# Unity平台游戏控制器教程
+# Unity 平台游戏控制器教程 Platformer Controller Tutorial
 
 ### 视频教程链接 Tutorial videos links
   - Bilibili: https://space.bilibili.com/27164588/channel/collectiondetail?sid=159578
