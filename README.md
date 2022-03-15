@@ -1,11 +1,11 @@
 # Unity平台游戏控制器教程
 
-### 视频教程链接
+### 视频教程链接 Tutorial videos links
   - Bilibili: https://space.bilibili.com/27164588/channel/collectiondetail?sid=159578
   - YouTube: https://youtube.com/playlist?list=PLrn_k3ArwNC0Ujx60tRVChrVzSCYW1Rqf
 
 ---
-### Unity平台游戏角色控制器系列教程内容
+### Unity平台游戏角色控制器系列教程内容 Tutorial Contents
 - 输入系统 Input System；
 - Finite State Machine 状态机；
 - 虚拟相机 Cinemachine
@@ -16,7 +16,13 @@
 
 我的频道的主要内容是独立游戏的开发教程与日志。
 
-记得订阅我的频道不错过更新~
+欢迎订阅我的频道不错过更新~
+
+Hello there, I am Ryan, an indie game developer and free-lance artist.
+
+My channel is mainly involves about indie game dev tutorials and logs. 
+
+Welcome to subscribe, have fun :) 
 
 ----
 ➤独立游戏开发研究交流Q群1：236873600 (已满，偶尔有位置)
