@@ -4,13 +4,10 @@
   - Bilibili: https://space.bilibili.com/27164588/channel/collectiondetail?sid=159578
   - YouTube: https://youtube.com/playlist?list=PLrn_k3ArwNC0Ujx60tRVChrVzSCYW1Rqf
 
-### 游戏试玩下载链接
-- 百度网盘 - https://pan.baidu.com/s/1Vd6fbCfObaI0vp-jtvQsyQ?pwd=fs7c 提取码：fs7c
-- Google Drive - https://drive.google.com/file/d/17FD3SiyUSPecJ8Fu6THNnBRcSOsDvP0i/view?usp=sharing
-
+---
 ### Unity平台游戏角色控制器系列教程内容
-- Unity新的输入系统 Input System；
-- Finite State Machine 状态机系统；
+- 输入系统 Input System；
+- Finite State Machine 状态机；
 - 虚拟相机 Cinemachine
 - 二段跳，土狼时间，小跳等角色控制的实现。
 
