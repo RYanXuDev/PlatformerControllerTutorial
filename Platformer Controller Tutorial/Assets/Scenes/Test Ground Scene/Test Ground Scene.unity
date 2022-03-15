@@ -1528,6 +1528,8 @@ GameObject:
   - component: {fileID: 139370787}
   - component: {fileID: 139370788}
   - component: {fileID: 139370790}
+  - component: {fileID: 139370791}
+  - component: {fileID: 139370792}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -1584,6 +1586,33 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!114 &139370791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139370786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fd22ebd08374d64ba4061ef6928de94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &139370792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139370786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33f84420d7b3e04786d929b293276a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states:
+  - {fileID: 11400000, guid: 10147b3959090ff4bac859e94c0c1d2e, type: 2}
+  - {fileID: 11400000, guid: 5926a4e93cf65e642b136811e530fb09, type: 2}
 --- !u!1001 &144660383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18060,7 +18089,7 @@ Animator:
   m_GameObject: {fileID: 2900298148104276014}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: ac331b525a4577e46aa9942c1016219d, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1659456a9bd22fa409341a8ed30adf89, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerState : ScriptableObject, IState
 {
-    Animator animator;
+    protected Animator animator;
 
-    PlayerStateMachine stateMachine;
+    protected PlayerStateMachine stateMachine;
 
     public void Initialize(Animator animator, PlayerStateMachine stateMachine)
     {
