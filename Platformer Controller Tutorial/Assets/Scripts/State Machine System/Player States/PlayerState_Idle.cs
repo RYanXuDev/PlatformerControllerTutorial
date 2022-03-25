@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 [CreateAssetMenu(menuName = "Data/StateMachine/PlayerState/Idle", fileName = "PlayerState_Idle")]
 public class PlayerState_Idle : PlayerState
@@ -13,7 +10,7 @@ public class PlayerState_Idle : PlayerState
 
     public override void LogicUpdate()
     {
-        if (Keyboard.current.aKey.isPressed || Keyboard.current.dKey.isPressed)
+        if (input.Move)
         {
             stateMachine.SwitchState(typeof(PlayerState_Run));
         }

@@ -8,15 +8,19 @@ public class PlayerStateMachine : StateMachine
 
     Animator animator;
 
+    PlayerInput input;
+
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
+
+        input = GetComponent<PlayerInput>();
 
         stateTable = new Dictionary<System.Type, IState>(states.Length);
 
         foreach (PlayerState state in states)
         {
-            state.Initialize(animator, this);
+            state.Initialize(animator, input, this);
             stateTable.Add(state.GetType(), state);
         }
     }
