@@ -6,6 +6,8 @@ public class PlayerState_Idle : PlayerState
     public override void Enter()
     {
         animator.Play("Idle");
+
+        player.SetVelocityX(0f);
     }
 
     public override void LogicUpdate()

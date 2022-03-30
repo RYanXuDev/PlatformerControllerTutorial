@@ -6,12 +6,14 @@ public class PlayerState : ScriptableObject, IState
 {
     protected Animator animator;
 
+    protected PlayerController player;
     protected PlayerInput input;
     protected PlayerStateMachine stateMachine;
 
-    public void Initialize(Animator animator, PlayerInput input, PlayerStateMachine stateMachine)
+    public void Initialize(Animator animator, PlayerController player, PlayerInput input, PlayerStateMachine stateMachine)
     {
         this.animator = animator;
+        this.player = player;
         this.input = input;
         this.stateMachine = stateMachine;
     }
