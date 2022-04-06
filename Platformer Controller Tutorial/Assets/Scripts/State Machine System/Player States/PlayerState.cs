@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerState : ScriptableObject, IState
 {
+    protected float currentSpeed;
+
     protected Animator animator;
 
     protected PlayerController player;

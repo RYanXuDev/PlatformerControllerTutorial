@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rigidBody;
 
+    public float MoveSpeed => Mathf.Abs(rigidBody.velocity.x);
+
     void Awake()
     {
         input = GetComponent<PlayerInput>();

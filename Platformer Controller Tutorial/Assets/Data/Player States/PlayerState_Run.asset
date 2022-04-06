@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: PlayerState_Run
   m_EditorClassIdentifier: 
   runSpeed: 5
+  acceration: 15
