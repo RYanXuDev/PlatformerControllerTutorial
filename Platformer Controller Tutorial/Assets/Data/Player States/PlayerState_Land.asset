@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb690fe0b80c5054bb2cc6787d78cd59, type: 3}
-  m_Name: PlayerState_Run
+  m_Script: {fileID: 11500000, guid: c45a0f2ced245b44d8029138a89cd792, type: 3}
+  m_Name: PlayerState_Land
   m_EditorClassIdentifier: 
-  stateName: Run
+  stateName: Land
   transitionDuration: 0.1
-  runSpeed: 5
-  acceleration: 15

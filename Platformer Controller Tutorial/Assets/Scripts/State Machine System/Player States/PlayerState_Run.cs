@@ -4,11 +4,11 @@ using UnityEngine;
 public class PlayerState_Run : PlayerState
 {
     [SerializeField] float runSpeed = 5f;
-    [SerializeField] float acceration = 5f;
+    [SerializeField] float acceleration = 5f;
 
     public override void Enter()
     {
-        animator.Play("Run");
+        base.Enter();
 
         currentSpeed = player.MoveSpeed;
     }
@@ -20,7 +20,17 @@ public class PlayerState_Run : PlayerState
             stateMachine.SwitchState(typeof(PlayerState_Idle));
         }
 
-        currentSpeed = Mathf.MoveTowards(currentSpeed, runSpeed, acceration * Time.deltaTime);
+        if (input.Jump)
+        {
+            stateMachine.SwitchState(typeof(PlayerState_JumpUp));
+        }
+
+        if (!player.IsGrounded)
+        {
+            stateMachine.SwitchState(typeof(PlayerState_Fall));
+        }
+
+        currentSpeed = Mathf.MoveTowards(currentSpeed, runSpeed, acceleration * Time.deltaTime);
     }
 
     public override void PhysicUpdate()
