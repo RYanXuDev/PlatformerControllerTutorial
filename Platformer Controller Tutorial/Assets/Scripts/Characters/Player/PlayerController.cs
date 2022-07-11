@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody rigidBody;
 
+    public bool CanAirJump { get; set; }
     public bool IsGrounded => groundDetector.IsGrounded;
     public bool IsFalling => rigidBody.velocity.y < 0f && !IsGrounded;
     

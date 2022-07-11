@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Data/StateMachine/PlayerState/JumpUp", fileName = "PlayerState_JumpUp")]
-public class PlayerState_JumpUp : PlayerState
+[CreateAssetMenu(menuName = "Data/StateMachine/PlayerState/AirJump", fileName = "PlayerState_AirJump")]
+public class PlayerState_AirJump : PlayerState
 {
     [SerializeField] float jumpForce = 7f;
     [SerializeField] float moveSpeed = 5f;
@@ -11,6 +11,7 @@ public class PlayerState_JumpUp : PlayerState
     {
         base.Enter();
 
+        player.CanAirJump = false;
         player.SetVelocityY(jumpForce);
         Instantiate(jumpVFX, player.transform.position, Quaternion.identity);
     }
