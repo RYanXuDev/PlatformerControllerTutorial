@@ -27,7 +27,7 @@ public class PlayerState_Run : PlayerState
 
         if (!player.IsGrounded)
         {
-            stateMachine.SwitchState(typeof(PlayerState_Fall));
+            stateMachine.SwitchState(typeof(PlayerState_CoyoteTime));
         }
 
         currentSpeed = Mathf.MoveTowards(currentSpeed, runSpeed, acceleration * Time.deltaTime);

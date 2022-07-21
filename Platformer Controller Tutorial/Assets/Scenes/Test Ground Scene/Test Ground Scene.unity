@@ -1684,6 +1684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   states:
   - {fileID: 11400000, guid: c06c93e8fdbf0394e910c6937e0f50d6, type: 2}
+  - {fileID: 11400000, guid: 38d6b0a646d6301498536ca275bf15e1, type: 2}
   - {fileID: 11400000, guid: 38195e4fc8b822c479820ba888825580, type: 2}
   - {fileID: 11400000, guid: 10147b3959090ff4bac859e94c0c1d2e, type: 2}
   - {fileID: 11400000, guid: 3f23cc0d894e67f4493faa2b89595cbb, type: 2}
