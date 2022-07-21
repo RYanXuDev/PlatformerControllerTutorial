@@ -1,5 +1,7 @@
 # Unity平台游戏控制器教程
 
+![title](Images/PCT.png)
+
 ## 教程视频列表
 
 - Bilibili: <https://space.bilibili.com/27164588/channel/collectiondetail?sid=159578>

@@ -1,5 +1,7 @@
 # Unity Platformer Controller Tutorial
 
+![title](Images/PCT.png)
+
 ## Tutorial Video List
 
 - YouTube: <https://youtube.com/playlist?list=PLrn_k3ArwNC0Ujx60tRVChrVzSCYW1Rqf>
