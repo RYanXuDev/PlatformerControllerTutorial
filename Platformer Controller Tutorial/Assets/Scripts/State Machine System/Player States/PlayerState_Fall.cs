@@ -18,7 +18,11 @@ public class PlayerState_Fall : PlayerState
             if (player.CanAirJump)
             {
                 stateMachine.SwitchState(typeof(PlayerState_AirJump));
+
+                return;
             }
+
+            input.SetJumpInputBufferTimer();
         }
     }
 

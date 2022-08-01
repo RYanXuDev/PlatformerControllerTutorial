@@ -14,7 +14,7 @@ public class PlayerState_Land : PlayerState
 
     public override void LogicUpdate()
     {
-        if (input.Jump)
+        if (input.HasJumpInputBuffer || input.Jump)
         {
             stateMachine.SwitchState(typeof(PlayerState_JumpUp));
         }

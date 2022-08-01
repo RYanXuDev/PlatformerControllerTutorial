@@ -11,6 +11,7 @@ public class PlayerState_JumpUp : PlayerState
     {
         base.Enter();
 
+        input.HasJumpInputBuffer = false;
         player.SetVelocityY(jumpForce);
         Instantiate(jumpVFX, player.transform.position, Quaternion.identity);
     }
