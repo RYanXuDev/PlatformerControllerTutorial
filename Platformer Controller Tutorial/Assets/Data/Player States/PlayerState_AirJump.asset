@@ -17,3 +17,4 @@ MonoBehaviour:
   jumpForce: 8
   moveSpeed: 5
   jumpVFX: {fileID: 19800018, guid: f57f82b6093f15b4a8b75d132acf37b7, type: 3}
+  jumpSFX: {fileID: 8300000, guid: 6ccbc3d284bd849d49fb1f8f94ab2888, type: 3}

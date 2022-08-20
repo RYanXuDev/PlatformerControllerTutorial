@@ -8,8 +8,6 @@ public class StarGem : MonoBehaviour
     [SerializeField] AudioClip pickUpSFX;
     [SerializeField] ParticleSystem pickUpVFX;
 
-    AudioSource audioSource;
-
     new Collider collider;
 
     MeshRenderer meshRenderer;
@@ -18,7 +16,6 @@ public class StarGem : MonoBehaviour
 
     void Awake()
     {
-        audioSource = GetComponent<AudioSource>();
         collider = GetComponent<Collider>();
         meshRenderer = GetComponentInChildren<MeshRenderer>();
         waitResetTime = new WaitForSeconds(resetTime);
@@ -33,7 +30,7 @@ public class StarGem : MonoBehaviour
             collider.enabled = false;
             meshRenderer.enabled = false;
 
-            audioSource.PlayOneShot(pickUpSFX);
+            SoundEffectsPlayer.AudioSource.PlayOneShot(pickUpSFX);
             Instantiate(pickUpVFX, transform.position, transform.rotation);
 
             // Invoke(nameof(Reset), resetTime);

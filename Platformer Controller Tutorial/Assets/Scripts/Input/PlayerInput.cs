@@ -35,17 +35,17 @@ public class PlayerInput : MonoBehaviour
         };
     }
 
-    void OnGUI()
-    {
-        Rect rect = new Rect(200, 200, 200, 200);
-        string message = "Has Jump Input Buffer: " + HasJumpInputBuffer;
-        GUIStyle style = new GUIStyle();
+    // void OnGUI()
+    // {
+    //     Rect rect = new Rect(200, 200, 200, 200);
+    //     string message = "Has Jump Input Buffer: " + HasJumpInputBuffer;
+    //     GUIStyle style = new GUIStyle();
 
-        style.fontSize = 20;
-        style.fontStyle = FontStyle.Bold;
+    //     style.fontSize = 20;
+    //     style.fontStyle = FontStyle.Bold;
 
-        GUI.Label(rect, message, style);
-    }
+    //     GUI.Label(rect, message, style);
+    // }
 
     public void EnableGameplayInputs()
     {

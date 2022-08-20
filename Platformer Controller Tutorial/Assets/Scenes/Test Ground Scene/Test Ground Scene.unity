@@ -770,7 +770,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54788399}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8, z: -10}
+  m_LocalPosition: {x: 23.27, y: 35.309998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -807,7 +807,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1594534, y: 1}
+    m_SensorSize: {x: 2.2788463, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1617,7 +1617,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139370786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 23.27, y: 34.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5418,7 +5418,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &770174294
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6788,7 +6788,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8, z: -10}
+  m_LocalPosition: {x: 23.27, y: 35.309998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12474,13 +12474,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1780986670}
   - component: {fileID: 1780986672}
+  - component: {fileID: 1780986673}
   m_Layer: 7
   m_Name: SFX Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1780986670
 Transform:
   m_ObjectHideFlags: 0
@@ -12592,6 +12593,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1780986673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780986669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c899d0de79928734d8720b9f8253e621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1788005237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15245,9 +15258,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3923109106766990481, guid: 424845a16462f7e4c95efce778b2cae1, type: 3}
-    - {fileID: 3923109106766990480, guid: 424845a16462f7e4c95efce778b2cae1, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 424845a16462f7e4c95efce778b2cae1, type: 3}
 --- !u!4 &2105528323 stripped
 Transform:
@@ -15557,18 +15568,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 892641365}
     m_Modifications:
-    - target: {fileID: 2894897690811619296, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
-      propertyPath: ball
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894897690811619296, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
-      propertyPath: gates.Array.data[0]
-      value: 
-      objectReference: {fileID: 670096863}
-    - target: {fileID: 2894897690811619296, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
-      propertyPath: gates.Array.data[1]
-      value: 
-      objectReference: {fileID: 1171202979}
     - target: {fileID: 2894897690811619309, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
       propertyPath: m_Name
       value: GateTrigger
@@ -15617,9 +15616,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2894897690811619296, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
-    - {fileID: 2894897690811619297, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bbca2030fdc5c24baa5e54ce73a28fe, type: 3}
 --- !u!1 &2900298148104275968
 GameObject:
@@ -18444,7 +18441,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vitory Gem
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6751317616852142882, guid: 295745380a050a446afccfde6be2c9eb, type: 3}
-    - {fileID: 6751317616852142883, guid: 295745380a050a446afccfde6be2c9eb, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 295745380a050a446afccfde6be2c9eb, type: 3}

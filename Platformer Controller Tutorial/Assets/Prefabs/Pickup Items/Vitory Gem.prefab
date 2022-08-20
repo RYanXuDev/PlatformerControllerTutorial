@@ -14308,7 +14308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6751317616852142909}
   - component: {fileID: 7318909472480001275}
-  m_Layer: 0
+  - component: {fileID: 1677295568}
+  m_Layer: 8
   m_Name: Vitory Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14322,7 +14323,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6751317616852142910}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 25.5, y: 36.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -14345,6 +14346,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1677295568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6751317616852142910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f603e327f991b74697cdbbda0af37a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUpSFX: {fileID: 8300000, guid: d4007067d30a702478f8de23ab74795f, type: 3}
+  pickUpVFX: {fileID: 3150646932449378588, guid: bbf59c86e1e02de4e9483f10db783eb5, type: 3}
 --- !u!1001 &6751317617307262907
 PrefabInstance:
   m_ObjectHideFlags: 0

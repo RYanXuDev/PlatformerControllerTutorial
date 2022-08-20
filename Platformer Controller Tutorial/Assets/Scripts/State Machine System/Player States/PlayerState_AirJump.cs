@@ -6,6 +6,7 @@ public class PlayerState_AirJump : PlayerState
     [SerializeField] float jumpForce = 7f;
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] ParticleSystem jumpVFX;
+    [SerializeField] AudioClip jumpSFX;
 
     public override void Enter()
     {
@@ -13,6 +14,7 @@ public class PlayerState_AirJump : PlayerState
 
         player.CanAirJump = false;
         player.SetVelocityY(jumpForce);
+        player.VoicePlayer.PlayOneShot(jumpSFX);
         Instantiate(jumpVFX, player.transform.position, Quaternion.identity);
     }
 
