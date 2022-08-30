@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] VoidEventChannel levelClearedEventChannel;
+
     PlayerGroundDetector groundDetector;
     PlayerInput input;
 
@@ -10,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public AudioSource VoicePlayer { get; private set; }
 
     public bool CanAirJump { get; set; }
+    public bool Victory { get; private set; }
     public bool IsGrounded => groundDetector.IsGrounded;
     public bool IsFalling => rigidBody.velocity.y < 0f && !IsGrounded;
     
@@ -21,6 +24,21 @@ public class PlayerController : MonoBehaviour
         input = GetComponent<PlayerInput>();
         rigidBody = GetComponent<Rigidbody>();
         VoicePlayer = GetComponentInChildren<AudioSource>();
+    }
+
+    void OnEnable()
+    {
+        levelClearedEventChannel.AddListener(OnLevelCleared);
+    }
+
+    void OnDisable()
+    {
+        levelClearedEventChannel.RemoveListener(OnLevelCleared);
+    }
+
+    void OnLevelCleared()
+    {
+        Victory = true;
     }
 
     void Start()

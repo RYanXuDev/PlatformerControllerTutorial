@@ -4872,6 +4872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64cc0df344786247b0696787b2fc276, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gateTriggeredEventChannel: {fileID: 11400000, guid: 58ee8589d8fbcc94aa529ac6757cd69a, type: 2}
   pickUpSFX: {fileID: 8300000, guid: 616cf7f5cffb52e4caa0df9070ee4067, type: 3}
   pickUpVFX: {fileID: 7448262640703523567, guid: 2f4073e99a22f764781330df4d97a05f, type: 3}
 --- !u!1 &5689563444292192373

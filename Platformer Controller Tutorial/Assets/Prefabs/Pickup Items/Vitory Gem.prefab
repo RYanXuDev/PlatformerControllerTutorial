@@ -14358,6 +14358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f603e327f991b74697cdbbda0af37a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelClearedEventChannel: {fileID: 11400000, guid: cc64fe68f25f2fe43bd8b3eb030e5da2, type: 2}
   pickUpSFX: {fileID: 8300000, guid: d4007067d30a702478f8de23ab74795f, type: 3}
   pickUpVFX: {fileID: 3150646932449378588, guid: bbf59c86e1e02de4e9483f10db783eb5, type: 3}
 --- !u!1001 &6751317617307262907
