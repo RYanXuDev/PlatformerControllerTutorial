@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead091fde9148404593727c939b31ef4, type: 3}
+  m_Name: PlayerState_Victory
+  m_EditorClassIdentifier: 
+  stateName: Victory
+  transitionDuration: 0.1
+  voice:
+  - {fileID: 8300000, guid: 48f945eaabaa941da8b22c03b441664a, type: 3}
+  - {fileID: 8300000, guid: 711e97616ead2487dab4458d1a601978, type: 3}
+  - {fileID: 8300000, guid: 1fd7d2c354c86467cb0e57f86e88cdb9, type: 3}

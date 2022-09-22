@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -51,6 +52,11 @@ public class PlayerInput : MonoBehaviour
     {
         playerInputActions.Gameplay.Enable();
         Cursor.lockState = CursorLockMode.Locked;
+    }
+    
+    public void DisableGameplayInputs()
+    {
+        playerInputActions.Gameplay.Disable();
     }
 
     public void SetJumpInputBufferTimer()

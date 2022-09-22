@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157e6926a85bf1a49b9e6af808a5403a, type: 3}
+  m_Name: PlayerState_Defeated
+  m_EditorClassIdentifier: 
+  stateName: Defeated
+  transitionDuration: 0.1
+  vfx: {fileID: 19853964, guid: bb266f46b1cf64146ba6d47074785030, type: 3}
+  voice:
+  - {fileID: 8300000, guid: c0cc9bb81e32248d7b64b27359c13a43, type: 3}
+  - {fileID: 8300000, guid: 23e7ee0c4720c4bd48c405abb4ffa7f2, type: 3}
+  - {fileID: 8300000, guid: 14442038946004af3aaf906b64944b5f, type: 3}
+  - {fileID: 8300000, guid: 60e04cb188aff4081a59ce70a1ff20c9, type: 3}

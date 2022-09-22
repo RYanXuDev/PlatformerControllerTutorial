@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -39,6 +40,17 @@ public class PlayerController : MonoBehaviour
     void OnLevelCleared()
     {
         Victory = true;
+    }
+
+    public void OnDefeated()
+    {
+        input.DisableGameplayInputs();
+
+        rigidBody.velocity = Vector3.zero;
+        rigidBody.useGravity = false;
+        rigidBody.detectCollisions = false;
+
+        GetComponent<StateMachine>().SwitchState(typeof(PlayerState_Defeated));
     }
 
     void Start()

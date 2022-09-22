@@ -9,10 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c45a0f2ced245b44d8029138a89cd792, type: 3}
-  m_Name: PlayerState_Land
+  m_Script: {fileID: 11500000, guid: ed7e6c53d0cfaa64baa41f8b824c6509, type: 3}
+  m_Name: VoidEventChannel_ PlayerDefeated
   m_EditorClassIdentifier: 
-  stateName: Land
-  transitionDuration: 0.1
-  stiffTime: 0.2
-  landVFX: {fileID: 4677385770777475979, guid: 31beca5807f326246860109c534f1383, type: 3}
